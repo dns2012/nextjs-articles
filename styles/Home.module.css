@@ -1,14 +1,17 @@
 .container {
   padding: 0 2rem;
+  max-width: 70%;
+  margin: auto;
 }
 
 .main {
   min-height: 100vh;
+  width: 100%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -42,7 +45,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
@@ -113,4 +116,53 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.main button {
+  cursor: pointer;
+  margin: 0 0.2em;
+}
+
+.form {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.formGroup {
+  padding: 0.5em;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+input.formControl, select.formControl {
+  height: 2.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+textarea.formControl {
+  height: 5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.left {
+  margin-right: auto;
 }
